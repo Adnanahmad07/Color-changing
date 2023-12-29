@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Background Color Changer</title>
+  <style>
+    body {
+      text-align: center;
+      margin-top: 200px;
+      font-size: 24px;
+    }
+    .color-btn {
+      padding: 10px 20px;
+      font-size: 18px;
+      cursor: pointer;
+      background: #cac8c8;
+      color: rgb(0, 0, 0);
+      border: none;
+      transition: all .3s;
+      border-radius: 4px;
+    }
+
+    .color-btn:hover{
+        background-color: black;
+        color: rgb(255, 255, 255);
+    }
+  </style>
+</head>
+<body>
+  <h1>Background Color Changer</h1>
+  <button class="color-btn" onclick="changeBackgroundColor()">Change Background Color</button>
+
+  <script src="index.js"></script>
+</body>
+</html>
